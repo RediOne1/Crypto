@@ -1,6 +1,5 @@
 package com.appsprojekt.crypto;
 
-import android.*;
 import android.annotation.TargetApi;
 import android.content.pm.PackageManager;
 import android.os.Build;
