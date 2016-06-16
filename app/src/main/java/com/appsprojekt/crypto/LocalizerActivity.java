@@ -34,7 +34,7 @@ public abstract class LocalizerActivity extends AppCompatActivity implements Goo
 				.build();
 
 		locationRequest = new LocationRequest();
-		locationRequest.setInterval(TimeUnit.SECONDS.toMillis(2));
+		locationRequest.setInterval(TimeUnit.SECONDS.toMillis(10));
 		locationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
 
 	}

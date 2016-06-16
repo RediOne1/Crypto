@@ -1,4 +1,5 @@
 <resources>
 	<string name="app_name">Crypto</string>
 	<string name="current_position">Current position</string>
+	<string name="anonymous_sign_in">Anonym Sign In</string>
 </resources>
