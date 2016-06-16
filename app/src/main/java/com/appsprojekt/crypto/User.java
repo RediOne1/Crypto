@@ -1,8 +1,10 @@
 package com.appsprojekt.crypto;
 
 import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.Exclude;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.IgnoreExtraProperties;
+import com.google.maps.android.PolyUtil;
 
 /**
  * author:  Adrian Kuta
@@ -10,6 +12,9 @@ import com.google.firebase.database.IgnoreExtraProperties;
  */
 @IgnoreExtraProperties
 public class User {
+
+	@Exclude
+	public String userId;
 	public int secretNumber;
 
 	public User() {
