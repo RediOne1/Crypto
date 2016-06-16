@@ -24,11 +24,7 @@ public class MainActivity extends LocalizerActivity implements LocationListener 
 
 	@Override
 	public void onLocationChanged(Location location) {
-		EditText editText = inputLayout.getEditText();
-		if (editText != null) {
-			String loc = location.getLatitude() + " " + location.getLongitude();
-			editText.setText(loc);
-		}
+
 	}
 
 	@Override
